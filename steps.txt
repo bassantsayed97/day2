@@ -1,0 +1,44 @@
+Steps
+1)	 SSH  Key : $ ssh-keygen -t rsa -b 4096 -C bassantt12@gmail.com
+2)	Git init
+3)	Touch day2.html
+4)	Git add . 
+5)	Git commit –m "task for day 2"
+6)	Git branch –M main 
+7)	Git remote add origin https://github.com/bassantsayed97/day2.git
+8)	Git push origin main 
+9)	Create branch : git branch dev 
+10)	Git branch test
+11)	Git checkout dev 
+12)	Touch f1 , f2
+13)	Git add .
+14)	Git commit –m "add two file in dev branch"
+15)	Git push origin dev
+16)	Git push origin test
+17)	Git checkout main
+18)	Git merge dev 
+19)	Ls -> to show list 
+
+To delete a remote branch :
+     Git push origin :test
+     Git push origin :dev
+To delete a local  branch :
+     Git branch –d test 
+     Git branch –d dev
+Or 
+    Git branch –D test 
+     Git branch –D dev
+20)create tag : git tag –a v1.1 –m"first tag"
+21)git push origin v1.1
+
+To delete a remote tag:
+git push origin --delete v1.1 
+or 
+git push origin -d v1.1 
+
+To delete a local tag:
+git tag -d v1.1
+git tag --delete v1.1
+
+to list tags locally: 
+git tag
